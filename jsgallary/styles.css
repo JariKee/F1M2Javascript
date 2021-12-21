@@ -1,0 +1,15 @@
+boddy{
+    padding: 5px;
+    margin: 5px;
+}
+
+.button{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: lightcoral;
+}

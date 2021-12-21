@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Slideshow Gallery</h1>
+    <div class="button" onclick="onClick()">click me</div>
+    <img id="img" src="http://placekitten.com/800/600" alt="">
+
+    <script>
+        var position = 0;
+        var img1 = "http://placekitten.com/800/600"
+        var img2 = "http://placekitten.com/812/600"
+        var img3 = "http://placekitten.com/712/600"
+        var img4 = "http://placekitten.com/833/600"
+        var img5 = "http://placekitten.com/822/600"
+        var img6 = "http://placekitten.com/802/600"
+
+        function onClick() {
+            var imgElement = document.getElementById("img");
+            position = position + 1;
+
+            if (position == 0) {
+                imgElement.src = img1;
+            }
+            if (position == 1) {
+                imgElement.src = img2;
+            }
+            if (position == 2) {
+                imgElement.src = img3;
+            }
+            if (position == 3) {
+                imgElement.src = img4;
+            }
+            if (position == 4) {
+                imgElement.src = img5;
+            }
+            if (position == 5) {
+                imgElement.src = img6;
+            }
+            if (position == 6) {
+                    imgElement.src = img1;
+            }
+        }
+    </script>
+</body>
+
+</html>

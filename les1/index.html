@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht kleuren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kopje">museum online javascript</h1>
+
+    <p id="mkblauw">maak achtergrond blauw</p>
+    <p id="mkgroen">maak achtergrond groen</p>
+    <p id="mkrood">maak achtergrond rood</p>
+    <p id="mkzward">maak achtergrond zward</p>
+    
+
+    <script>
+        const kopje = document.getElementById("kopje");
+        const mkblauw = document.getElementById('mkblauw');
+        const mkgroen = document.getElementById('mkgroen');
+        const mkrood = document.getElementById('mkrood');
+        const mkzward = document.getElementById('mkzward');
+
+        kopje.style.backgroundColor = "red";
+
+        kopje.addEventListener('click',voeruitkopje);
+        mkblauw.addEventListener('click', voeruitblauw);
+        mkgroen.addEventListener('click', voeruitgroen);
+        mkrood.addEventListener('click', voeruitrood);
+        mkzward.addEventListener('click', voeruitzward);
+
+
+        function voeruitkopje(){
+            kopje.style.backgroundColor = "yellow";
+            kopje.style.color = "black";
+        }
+
+        function voeruitblauw(){
+            document.body.style.backgroundColor = "blue ";
+            document.body.style.color = "white";
+        }
+
+        function voeruitgroen(){
+            document.body.style.backgroundColor = "green";
+            document.body.style.color = "blue";
+        }
+
+        function voeruitrood(){
+            document.body.style.backgroundColor = "red";
+            document.body.style.color = "aqua";
+
+        }
+        function voeruitzward(){
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+        }
+
+    </script>
+
+</body>
+</html>
