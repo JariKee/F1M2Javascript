@@ -1,0 +1,26 @@
+body{
+    background-color: cyan;
+}
+
+#container{
+    background-color: aquamarine;
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px gray;
+}
+
+#MyInteraction{
+    padding: 10px;
+}
+
+button{
+    border-radius: 5px;
+}
+
+#mapimage{
+    margin-top: 20px;
+    width: 545px;
+}
