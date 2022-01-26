@@ -17,10 +17,27 @@ body{
 }
 
 button{
-    border-radius: 5px;
+    margin-bottom: 5px;
+    
 }
 
 #mapimage{
     margin-top: 20px;
     width: 545px;
+}
+
+nav button{
+    color: black;
+    background-color: turquoise;
+}
+
+#knopNoord, #knopZuid{
+    display: block;
+    width: 300px;
+}
+
+#knopWest, #knopOost{
+    margin-right: -5px;
+    width: 150px;
+
 }

@@ -157,6 +157,11 @@ function updateDirections(){
         directionButtons[key].style.visibility = "hidden";
     }
 
+    for(const key of possible_keys){
+        directionButtons[key].style.visibility = "visible"
+
+    }
+
 }
 
 
@@ -170,6 +175,7 @@ function getInput(){
 function goDirection(richting){
     let punt_index = locaties[current_index].directions[richting];
     show(punt_index);
+    console.log(punt_index)
 
 
 }
