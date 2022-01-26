@@ -14,3 +14,5 @@ Jari Kee
 
 [Opdracht Route 2.0](http://33975.hosts1.ma-cloud.nl/f1m2js/les6/)
 ik heb een bepaalde error en ik weet niet hoe ik die kan fixen :( 
+
+[Portfolio](http://33975.hosts1.ma-cloud.nl/f1m2js/PortfolioJS/)
