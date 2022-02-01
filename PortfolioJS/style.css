@@ -8,8 +8,9 @@
 
 article{
     width: 60vw;
-    margin-left: 400px;
+    margin-left: 13%;
     font-family: sans-serif;
+    
 
 }
 
@@ -33,6 +34,8 @@ figcaption{
     background-color: cyan;
     border-radius: 5px;
     font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
     
       
 }
@@ -59,13 +62,7 @@ img:hover{
     
 }
 
-a{
-    margin-left: 10px;
-    background-color: cyan;
-    color: black;
-    white-space:pre;
-    
-}
+
 
 #opdracht1{
     background-color: blue;
@@ -78,12 +75,23 @@ a{
     background-color: rgb(91, 91, 255);
 }
 
+#opdracht3{
+    background-color: cyan;
+}
+
 #opdracht4{
     background-color: grey;
 }
 
+#opdracht5{
+    background-color: cyan;
+}
+
 #opdracht6{
     margin-bottom: 40px;
+    background-color: cyan;
+    
+    
 }
 
 footer{
@@ -106,5 +114,5 @@ footer > p{
 }
 
 #hier{
-    background-color: slategrey;;
+    background-color: slategrey;
 }
